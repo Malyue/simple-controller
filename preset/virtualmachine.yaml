@@ -1,0 +1,9 @@
+apiVersion: cloudnative.group.group/v1
+kind: VirtualMachine
+metadata:
+  name: test-vm
+spec:
+  name: test-vm
+  image: "http://docker-image"
+  cpu: 1
+  memory: 1Gi
